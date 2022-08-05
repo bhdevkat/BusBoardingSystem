@@ -12,8 +12,10 @@ namespace BusBoardingSystem.Domain
     {
         public int TenantId { get; set; }
 
+        public string StudentNumber { get; set; }
+
         public int PersonId { get; set; }
 
-        public string StudentNumber { get; set; }
+        public virtual Person Person { get; set; }
     }
 }
