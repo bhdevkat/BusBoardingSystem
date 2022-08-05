@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BusBoardingSystem.Domain
+{
+    public class Location : FullAuditedEntity<int>, IMustHaveTenant
+    {
+        public int TenantId { get; set; }
+        public string Name { get; set; }
+        public string Logitude { get; set; }
+        public string Latidute { get; set; }
+    }
+}
