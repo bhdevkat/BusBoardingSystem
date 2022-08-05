@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Domain.Entities;
+using Abp.Domain.Entities.Auditing;
 
 namespace BusBoardingSystem.Domain
 {
@@ -12,8 +14,8 @@ namespace BusBoardingSystem.Domain
 
         public int ScheduleId { get; set; }
 
-        public DeteTime DepartureTime { get; set; }
+        public DateTime DepartureTime { get; set; }
 
-        public DeteTime ArrivalTime { get; set; }
+        public DateTime ArrivalTime { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using BusBoardingSystem.Authorization.Roles;
 using BusBoardingSystem.Authorization.Users;
 using BusBoardingSystem.MultiTenancy;
+using BusBoardingSystem.Domain;
 
 namespace BusBoardingSystem.EntityFrameworkCore
 {
